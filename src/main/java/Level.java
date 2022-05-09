@@ -1,5 +1,3 @@
-package langame;
-
 import com.googlecode.lanterna.TerminalPosition;
 import com.googlecode.lanterna.TextCharacter;
 import com.googlecode.lanterna.graphics.BasicTextImage;
@@ -75,7 +73,6 @@ public class Level {
         if (!isWall(newPosition)) {
             heroPosition = newPosition;
         }
-
     }
 
     public void moveRight() {

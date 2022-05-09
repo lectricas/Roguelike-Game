@@ -1,5 +1,3 @@
-package langame;
-
 import com.googlecode.lanterna.TerminalPosition;
 import com.googlecode.lanterna.graphics.TextGraphics;
 import com.googlecode.lanterna.input.KeyStroke;
@@ -9,7 +7,7 @@ import com.googlecode.lanterna.terminal.DefaultTerminalFactory;
 import java.io.IOException;
 
 public class Game {
-    public static void main(String[] args) throws InterruptedException, IOException {
+    public static void main(String[] args) throws IOException {
 
         Screen screen = new DefaultTerminalFactory().createScreen();
         TextGraphics tGraphics = screen.newTextGraphics();

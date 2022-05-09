@@ -1,5 +1,3 @@
-package langame;
-
 import java.util.Random;
 
 public class LevelGenerator {
